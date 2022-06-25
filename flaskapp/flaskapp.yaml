@@ -35,7 +35,7 @@ spec:
       containers:
       - name: flaskapp
         image: flaskdemoxdli:v1
-        imagePullPolicy: Always
+        imagePullPolicy: IfNotPresent
         ports:
          - containerPort: 80
         env:
