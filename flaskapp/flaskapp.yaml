@@ -17,7 +17,7 @@ spec:
       nodePort: 30090
 
 ---
-apiVersion: app/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: flaskapp
